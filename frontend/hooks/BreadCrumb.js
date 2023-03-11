@@ -1,7 +1,9 @@
 import React from "react";
+import { useRouter } from "next/router";
 
-export function BreadCrumb(URL) {
-    const segments = URL.split("/");
+export function useBreadCrumb() {
+    const router = useRouter();
+    const segments = router.route.split("/");
     let finals = [];
     finals.push("Home");
     for (let i of segments) {

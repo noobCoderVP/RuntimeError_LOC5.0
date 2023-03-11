@@ -1,10 +1,11 @@
 import "../styles/globals.css";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { useBreadCrumb } from "@/hooks/BreadCrumb";
+import { useBreadCrumb } from "../hooks/BreadCrumb";
 import Head from "next/head";
 import Navbar from "components/Navbar.jsx";
 import Footer from "components/Footer.jsx";
+import LoadingScreen from "../components/loadingScreen";
 
 // breadcrumbs
 import Breadcrump from "components/utils/Breadcrump";
@@ -17,8 +18,9 @@ import "aos/dist/aos.css";
 
 export default function App({ Component, pageProps }) {
     const [dark, setdark] = useState(false);
-    const [loading, setloading] = useState(true);
     const bread = useBreadCrumb();
+
+    const [loading, setLoading] = useState(false);
 
     const ModeHandler = () => {
         const html = document.querySelector("html");
@@ -32,9 +34,8 @@ export default function App({ Component, pageProps }) {
 
     useEffect(() => {
         AOS.init();
-        setInterval(() => {
-            setloading(false);
-        }, 2000);
+        setLoading(true);
+        setInterval(() => setLoading(false), 4000);
     }, []);
 
     return (
@@ -56,7 +57,7 @@ export default function App({ Component, pageProps }) {
             </Head>
             <Navbar />
             {loading ? (
-                <div className="loader"></div>
+                <LoadingScreen />
             ) : (
                 <main className="bg-slate-200 dark:bg-blue-400">
                     <div className="dark:bg-gray-800 bg-gray-300 px-4 py-2 text-black dark:text-white  border-l-4 border-blue-800 dark:border-white  breadnav flex flex-row">

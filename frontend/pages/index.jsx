@@ -4,6 +4,10 @@ import Image from "next/image";
 import PersonIcon from "@mui/icons-material/Person";
 import FactoryIcon from "@mui/icons-material/Factory";
 import StorefrontIcon from "@mui/icons-material/Storefront";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 import { Inter } from "next/font/google";
 
@@ -15,6 +19,7 @@ export default function Home() {
             <Head>
                 <title>Chainner</title>
             </Head>
+            <ToastContainer />
             <div className={styles.container}>
                 <div className={styles.title}>
                     <h1 className="animate-bounce">Welcome to Chainner!!!</h1>
@@ -81,30 +86,51 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="my-10">
-                <h2>Join Us As Manufacturer</h2>
-                <div>
-                    <div>
-                        <form action=""></form>
-                    </div>
-                    <div></div>
-                </div>
-            </section>
-            <section>
-                <h2>Join Us As Retailer</h2>
-                <div className="my-10">
-                    <div>
+            <section className={styles.manu}>
+                <h2 className="text-right max-w-fit bg-slate-400 text-black dark:bg-black dark:text-white p-4 w-max-fit text-3xl rounded-lg my-5">
+                    Join Us As Manufacturer
+                </h2>
+                <div className="flex flex-row flex-wrap justify-evenly items-center">
+                    <div className="py-5">
                         <Image
-                            src="/images/delivery.svg"
+                            src="/images/plan.svg"
                             width={300}
                             height={300}
                             alt="money"
-                            className=""
                         />
                     </div>
                     <div>
-                        <p></p>
-                        <button></button>
+                        <p>
+                            Would you like to gain some trust of customers?
+                            create a chain for the product you are selling and
+                            build a brand.
+                        </p>
+                        <Link href="/retail/register">
+                            <button>Get started as Manufacturer</button>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+            <section className={styles.retail}>
+                <h2 className="text-right max-w-fit bg-slate-400 text-black dark:bg-black dark:text-white p-4 w-max-fit text-3xl rounded-lg my-5">
+                    Join us as Retailer
+                </h2>
+                <div className="flex flex-wrap justify-evenly items-center py-5">
+                    <Image
+                        src="/images/delivery.svg"
+                        width={300}
+                        height={300}
+                        alt="money"
+                    />
+                    <div>
+                        <p>
+                            Authenticate the product you have got with our
+                            website and send it ahead in the chain. it requires
+                            less time and provides more security!!!
+                        </p>
+                        <Link href="/manufact/register">
+                            <button>Get started as Retailer</button>
+                        </Link>
                     </div>
                 </div>
             </section>
