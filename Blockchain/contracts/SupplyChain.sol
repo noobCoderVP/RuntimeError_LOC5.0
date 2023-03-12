@@ -6,12 +6,11 @@
 */
 
 pragma solidity >=0.5.0 <0.9.0;
+
 // ============ Licence and version declaration
 
-
-// ================================ Main Contract
+// ================================ Main COntract
 contract SupplyChain {
-
     // ============================================ States and structures
 
     // creating two mapping, products is used for storing product information as mapping and chains is used to store tha chain of a product
@@ -56,6 +55,11 @@ contract SupplyChain {
     // called when product is recieved by customer and product is found defective
 
     // ============================================= Manufacturer
+
+    // function for paying eth
+    function payEther() public payable{
+
+    }
 
     // below function will be used to initiate a chain
     function manufactureProduct(
