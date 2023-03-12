@@ -1,6 +1,66 @@
-# Team Runtime Error
+<h1 align="center">
+  <a href="https://github.com/noobCoderVP/RuntimeError_LOC5.0">
+    <img src="./web/decertify/packages/react-app/images/logo.gif" alt="deCertify" width="250" height="250">
+  </a>
+  <br>
+  Chainner :spiral_notepad:
+</h1>
 
-1. Jash shah (leader)
-2. Vaibhav patel
-3. Ananya bangera
-4. Toshan luktuke
+<div align="center">
+   <strong>Chainner</strong> - A Blockchain-based luxury goods supply chain management website.<br>
+  LOC 5.0 || Team Runtime Error.
+</div>
+<hr>
+
+**Problem Statement:** Luxury Goods Supply - Chain Management
+
+**Chainner** is a blockchain-based platform that leverages <b> distributed ledger technology</b> to enable secure and transparent tracking of luxury goods throughout the supply chain.
+
+### Features
+Chainner offers a variety of features that enable stakeholders in the luxury goods industry to track and verify the authenticity, provenance, and quality of luxury goods throughout the supply chain. Some of the key features of Chainner include:
+- Decentralized and immutable ledger: Chainner uses a decentralized ledger technology that creates an immutable record of each transaction, ensuring that the data cannot be altered or tampered with.
+- Traceability: Chainner enables stakeholders to track the movement of luxury goods from the point of origin to the point of sale, providing transparency and traceability throughout the supply chain.
+- Authentication: Chainner uses advanced cryptographic techniques to authenticate luxury goods, making it easier to detect counterfeit products and prevent fraud.
+- Provenance verification: Chainner allows stakeholders to verify the origin and history of luxury goods, ensuring that they are ethically sourced and comply with industry standards.
+- Quality control: Chainner enables stakeholders to monitor the quality of luxury goods throughout the supply chain, ensuring that they are handled and transported in accordance with industry standards.
+- Smart contracts: Chainner uses smart contracts to automate transactions and enforce business rules, reducing the risk of errors and disputes.
+- Transparency: Chainner provides a transparent view of the supply chain, enabling stakeholders to access real-time information and make informed decisions.
+
+1. Manufacturer: The manufacturer is responsible for creating the luxury goods and entering them into the Chainner system. The manufacturer has full access to the data related to the production of the goods, including quality control, testing, and shipment.
+
+2. Distributor: The distributor is responsible for transporting the luxury goods from the manufacturer to the retailer. The distributor has access to the data related to the shipment and logistics of the goods, including delivery dates, tracking information, and storage conditions.
+
+3. Retailer: The retailer is responsible for selling the luxury goods to the end customer. The retailer has access to the data related to the sale of the goods, including pricing, inventory, and customer information.
+
+4. Consumer: The consumer is the end customer who purchases the luxury goods. The consumer has access to the data related to the authenticity, provenance, and quality of the goods, including certification and verification information.
+
+![Flowchart](web/decertify/packages/react-app/images/flowchart-annotated.png)
+
+
+
+## Resources
+- [Demo Video]()
+- [GitHub Repository](https://github.com/noobCoderVP/RuntimeError_LOC5.0)
+<!-- - [Hosted Website Link](https://aasan-ai.vercel.app/) -->
+<!-- - [APK Link](https://drive.google.com/file/d/1_9KDwIHznsWo5kW3VwEDmHa3ooFVGlZA/view?usp=sharing) -->
+
+## 🤖Tech-Stack
+
+#### Web Development
+- ReactJS
+- Tailwind CSS
+
+#### Blockchain
+- Solidity
+- Smart Contracts
+
+## 🔮Future Scope and Business Potential
+- Integrate GraphQL to provide Statistics about the verification requests
+- Add NFT Support
+- Provide facility to build a chain of verification on top of 
+
+## 👨‍💻Team Members
+- [Vaibhav Patel](https://github.com/noobCoderVP)
+- [Ananya Bangera](https://github.com/ananya-bangera)
+- [Toshan Luktuke](https://github.com/toshan-luktuke)
+- [Jash Shah](https://github.com/Jash-Shah)
