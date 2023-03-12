@@ -53,9 +53,11 @@ Chainner is a blockchain-based platform that uses a variety of technologies to e
 - Smart Contracts
 
 ## 🔮Future Scope and Business Potential
-- Integrate GraphQL to provide Statistics about the verification requests
-- Add NFT Support
-- Provide facility to build a chain of verification on top of 
+- Smart contracts optimization
+- Enhancing Supply Chain Visibility
+- Advanced Analytics
+- Integration with other systems
+- Traceability and Transparency
 
 ## 👨‍💻Team Members
 - [Vaibhav Patel](https://github.com/noobCoderVP)
