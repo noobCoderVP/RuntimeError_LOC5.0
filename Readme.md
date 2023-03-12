@@ -26,23 +26,21 @@ Chainner offers a variety of features that enable stakeholders in the luxury goo
 - Smart contracts: Chainner uses smart contracts to automate transactions and enforce business rules, reducing the risk of errors and disputes.
 - Transparency: Chainner provides a transparent view of the supply chain, enabling stakeholders to access real-time information and make informed decisions.
 
-1. Manufacturer: The manufacturer is responsible for creating the luxury goods and entering them into the Chainner system. The manufacturer has full access to the data related to the production of the goods, including quality control, testing, and shipment.
+Chainner is a blockchain-based platform that uses a variety of technologies to enable secure and transparent tracking of luxury goods throughout the supply chain. The technology stack used in Chainner includes:
 
-2. Distributor: The distributor is responsible for transporting the luxury goods from the manufacturer to the retailer. The distributor has access to the data related to the shipment and logistics of the goods, including delivery dates, tracking information, and storage conditions.
+1. **Manufacturer**: The manufacturer is responsible for creating the luxury goods and entering them into the Chainner system. The manufacturer has full access to the data related to the production of the goods, including quality control, testing, and shipment.
 
-3. Retailer: The retailer is responsible for selling the luxury goods to the end customer. The retailer has access to the data related to the sale of the goods, including pricing, inventory, and customer information.
+2. **Distributor**: The distributor is responsible for transporting the luxury goods from the manufacturer to the retailer. The distributor has access to the data related to the shipment and logistics of the goods, including delivery dates, tracking information, and storage conditions.
 
-4. Consumer: The consumer is the end customer who purchases the luxury goods. The consumer has access to the data related to the authenticity, provenance, and quality of the goods, including certification and verification information.
+3. **Retailer**: The retailer is responsible for selling the luxury goods to the end customer. The retailer has access to the data related to the sale of the goods, including pricing, inventory, and customer information.
 
-![Flowchart](web/decertify/packages/react-app/images/flowchart-annotated.png)
-
+4. **Consumer**: The consumer is the end customer who purchases the luxury goods. The consumer has access to the data related to the authenticity, provenance, and quality of the goods, including certification and verification information.
 
 
 ## Resources
 - [Demo Video]()
 - [GitHub Repository](https://github.com/noobCoderVP/RuntimeError_LOC5.0)
-<!-- - [Hosted Website Link](https://aasan-ai.vercel.app/) -->
-<!-- - [APK Link](https://drive.google.com/file/d/1_9KDwIHznsWo5kW3VwEDmHa3ooFVGlZA/view?usp=sharing) -->
+
 
 ## 🤖Tech-Stack
 
